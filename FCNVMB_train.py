@@ -169,12 +169,4 @@ time_elapsed = time.time() - start
 print('Training complete in {:.0f}m  {:.0f}s' .format(time_elapsed //60 , time_elapsed % 60))
 
 # Save the loss
-font2  = {'family': 'Times New Roman',
-    'weight': 'normal',
-    'size': 17,
-    }
-font3 = {'family': 'Times New Roman',
-    'weight': 'normal',
-    'size': 21,
-    }
-SaveTrainResults(loss=loss1,loss_test=loss2,SavePath=results_dir,font2=font2,font3=font3)
+SaveTrainResults(loss=loss1,loss_test=loss2,SavePath=results_dir)

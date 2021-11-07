@@ -34,4 +34,3 @@ from func.utils import *
 from func.UnetModel import UnetModel
 from func.DataLoad_Train import DataLoad_Train
 from func.DataLoad_Test import DataLoad_Test
-from func.utils import turn, PSNR, SSIM
